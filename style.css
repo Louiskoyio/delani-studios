@@ -1,0 +1,158 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+
+}
+.containers{
+
+	text-align:center;
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
+	background-color:#f9f6e3;
+}
+
+.portfolio{
+	text-align:center;
+background-color:#f9f6e3;
+
+}
+table{
+	padding:20px;
+
+
+}
+.portfolio img{width:250px;height:250px;padding:20px;}
+.header{
+	position:relative;
+	z-index:100;
+	background-image: url("assets/backgrounds/h_img.jpg");
+	height: 88%;
+	text-transform:uppercase;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	color:white;
+  	font-size:25px;
+  	margin:0;
+  	text-align:center;
+}
+.header-text{
+	padding-top:25%;
+	display: inline-block;
+	width:50%;
+
+	
+}
+.header-text h1{
+	font-size:45px;
+}
+.header-text p{
+	font-size:15px;
+}
+.header-text span{
+	margin:150px 0px 0px 0px;
+	font-size:35px;
+}
+
+.containers h2{
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	padding-bottom:20px;
+
+}
+.containers h3{
+	font-size:15px;
+	font-weight:bold;
+	text-align:center;
+	padding:10px;
+
+}
+.about-us{
+	padding:50px 300px 50px 300px;
+	background-color:#f9f6e3;
+}
+
+.about-us p{
+	text-align:center;
+}
+
+
+
+
+.services{
+	background-image: url("assets/backgrounds/s_image.jpg");
+	height:300px;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	color:white;
+  	font-size:15px;
+  	margin:0;
+  	text-align:center;
+  	padding:50px 300px 50px 300px;
+}
+.service-text{
+	padding-top:25%;
+	display: inline-block;
+	width:50%;
+
+	
+}
+
+
+
+.wwd-item{
+text-align:center;
+padding:50px;	
+}
+
+
+
+
+.what-we-do{
+	background-color:#f9f6e3;
+	display:flex;
+	flex-direction:row;
+}
+.contact-us{
+	background-image: url("assets/backgrounds/c_image.jpg");
+	height:300px;
+	text-transform:uppercase;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	color:white;
+  	font-size:25px;
+  	margin:0;
+  	text-align:center;
+}
+.contact-us-text{
+	padding-top:25%;
+	display: inline-block;
+	width:50%;
+
+	
+}
+.copyright{
+	text-align:center;
+	padding:0px;
+	color: #000;
+	font-size:bold;
+	padding-bottom:20px;
+}
+input,textarea{
+	border:2px solid white;
+	padding:5px;
+	background-color:transparent;
+}
+::placeholder {
+  color:white;
+  font-size:12px;
+  opacity: 1;
+}
+.footer{
+	text-align:center;
+}
+.footer td{
+	padding:20px;}
